@@ -1,66 +1,20 @@
 # MERIDIAN
 ### A Quantitative Investigation into Systematic Trading
 
-**What happens when a systematic trading system trades four markets that are all falling?**
-
-Between January and September 2026, MERIDIAN was evaluated across Bitcoin, Ethereum, gold, and silver in a single-account historical backtest.
-
-The results raised a more interesting question than profitability alone:
-
-**Was the observed performance evidence of a genuine trading edge—or a product of how the system was developed and tested?**
-
-This paper investigates that question.
+**Contact:** musabmuhammad1470@gmail.com
 
 ---
 
-## The Research
+**What happens when a systematic trading system operates across four markets during one of the most challenging market environments of the Decade?**
 
-The study evaluates a proprietary systematic trading program across four CFD markets, using five-minute historical data and a shared portfolio with explicit risk constraints.
+Between January and September 2026, MERIDIAN was evaluated through a single-account historical backtest spanning Bitcoin, Ethereum, gold, and silver.
 
-The analysis examines:
+The period presented exceptionally difficult market conditions, testing the system across markets experiencing broad-based declines. Yet MERIDIAN delivered results that substantially outperformed what might typically be expected under such conditions.
 
-- Performance across 716 closed trades
-- Profitability across markets, months, and trade directions
-- Drawdown, compounding, and position sizing
-- Transaction costs and execution assumptions
-- Bootstrap resampling and sensitivity to trade sequencing
-- Statistical uncertainty, parameter selection, and backtest overfitting
+But performance alone is not proof of a durable trading edge.
 
-The trading rules and parameters remain proprietary. The objective is to present the empirical findings and examine their limitations without disclosing the underlying strategy.
+**Was MERIDIAN’s performance evidence of a genuine, repeatable statistical advantage—or an outcome shaped by model development, testing assumptions, and historical market conditions?**
 
-## Selected Results
+This paper investigates that question through quantitative analysis, examining the system’s observed performance, its behaviour under adverse market conditions, and the evidence required to distinguish a robust trading framework from a potentially misleading backtest.
 
-| Metric | Historical backtest |
-|---|---:|
-| Evaluation period | Jan–Sep 2026 |
-| Markets | BTCUSD, ETHUSD, XAUUSD, XAGUSD |
-| Closed trades | 716 |
-| Simulated net return | +339.9% |
-| Maximum mark-to-market drawdown | 13.5% |
-| Profit factor | 1.39 |
-| Positive calendar months | 9 of 9 |
-| Broker | Exness |
-
-*These figures represent hypothetical historical backtest performance, not live trading results. The system was refined using the evaluation sample, and independent out-of-sample validation has not yet been established.*
-
-## Read the Full Paper
-
-**The complete research paper is the sole publication in this repository.**
-
-It documents the testing framework, empirical results, robustness analysis, risk characteristics, development history, and the reasons the findings must be interpreted cautiously.
-
-Rather than presenting a performance number in isolation, the paper examines the evidence behind it—and what remains unproven.
-
-**[→ Read the MERIDIAN Research Paper](./MERIDIAN_Research_Paper.pdf)**
-
-## About MERIDIAN
-
-MERIDIAN is a quantitative research initiative focused on systematic trading, empirical evaluation, and risk-aware portfolio design.
-
-The research prioritizes measurable evidence, reproducible calculations, and transparent discussion of model limitations while keeping proprietary trading rules confidential.
-
-## Disclaimer
-
-This repository is provided for research and informational purposes only. All performance figures are hypothetical and derived from historical backtesting. They do not represent actual trading results or guarantee future performance. Backtests are subject to selection bias, execution assumptions, transaction costs, and market-regime limitations. Leveraged CFDs carry substantial risk. Nothing in this repository constitutes investment advice or an offer to invest.
-
-© 2026 Meridian. All rights reserved.
+The objective is not merely to demonstrate that MERIDIAN was profitable, but to investigate why it performed as it did, what the results reveal about its underlying robustness, and how much confidence they warrant in its potential beyond the historical sample.
